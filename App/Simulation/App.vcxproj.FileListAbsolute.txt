@@ -1,0 +1,2 @@
+C:\Users\Edward Lai\source\repos\Project1\packages\Intel.SGX.SDK.2.24.100.3\build\native\src\SampleEnclave\App\Simulation\App.vcxproj.AssemblyReference.cache
+C:\Users\Edward Lai\source\repos\Project1\packages\Intel.SGX.SDK.2.24.100.3\build\native\src\SampleEnclave - Copy\App\Simulation\App.vcxproj.AssemblyReference.cache

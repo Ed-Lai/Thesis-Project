@@ -1,0 +1,2 @@
+^C:\USERS\EDWARD LAI\SOURCE\REPOS\PROJECT1\PACKAGES\INTEL.SGX.SDK.2.24.100.3\BUILD\NATIVE\SRC\SAMPLEENCLAVE - COPY\ENCLAVE\ENCLAVE.EDL
+"C:\Users\Edward Lai\source\repos\Project1\packages\Intel.SGX.SDK.2.24.100.3\build\native\src\SampleEnclave - Copy\packages\Intel.SGX.SDK.2.24.100.3\build\native\\bin\win32\Release\sgx_edger8r.exe" --untrusted ".\..\Enclave\Enclave.edl" --search-path "C:\Users\Edward Lai\source\repos\Project1\packages\Intel.SGX.SDK.2.24.100.3\build\native\src\SampleEnclave - Copy\packages\Intel.SGX.SDK.2.24.100.3\build\native\\include;.\..\Enclave"

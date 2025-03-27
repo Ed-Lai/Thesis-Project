@@ -1,0 +1,14 @@
+/* OCALLs for the enclave memory management trusted API for Windows */
+enclave {
+    from "sgx_tstdc.edl" import sgx_thread_wait_untrusted_event_ocall, sgx_thread_set_untrusted_event_ocall;
+
+    trusted {
+        include "sgx_tedmm.h"
+    };
+    untrusted {
+        include "Windows.h"
+
+        /* Go outside and call VirtualProtect */
+        [stdcall, dllimport] int VirtualProtect([user_check] void * lpAddress, SIZE_T dwSize, unsigned long flNewProtect, [out, count = 1] unsigned long * lpflOldProtect);
+    };
+};
